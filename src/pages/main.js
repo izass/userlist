@@ -123,7 +123,7 @@ const styles = {
     alignItems: 'center',
     position: 'absolute',
     bottom: 70,
-    right: 30
+    right: 40
   },
 
   plusIcon: {
