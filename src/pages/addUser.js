@@ -62,7 +62,7 @@ const AddUser = (props) => {
 
   return (
     <View style={styles.page}>
-      <Text style={styles.title}>{user.id || user.id === 0 ? 'Editar usuário' : 'Adicionar novo usuário'}</Text>
+      <Text style={styles.title}>{user.id ? 'Editar usuário' : 'Adicionar novo usuário'}</Text>
       <TextInput
         style={styles.input}
         placeholder="email"

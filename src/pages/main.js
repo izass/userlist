@@ -10,7 +10,7 @@ Icon.loadFont();
 
 const Main = (props) => {
   const [usersList, setUsersList] = useState([])
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
 
   function showAlert(user) {
     Alert.alert(
