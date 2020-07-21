@@ -1,0 +1,24 @@
+= README
+Isaac M Barbosa <izass1312@gmail.com>
+
+Aplicativo de listagem de usuários com CRUD básico.
+
+O aplicativo conta com duas telas: Uma de listagem e uma de adição/edição de usuário.
+
+== Instruções:
+
+== Tela de listagem
+
+* O Botão verde leva para uma tela onde se pode criar um usuário.
+
+* Ao clicar no ícone da lata de lixo uma confirmação é solicitada para excluir o usuário.
+
+* Ao clicar num usuário já existente, irá para a tela de edição onde se pode ver e alterar os dados daquele usuário.
+
+== Tela de adição/edição
+
+* É possível criar um usuário com email, nome e senha. Email e senha são campos obrigatórios.
+
+* Após criado ou editado, o usuário é redirecionado para a tela de listagem.
+
+* Não é possível criar um usuário com email repetido
