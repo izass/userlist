@@ -14,15 +14,15 @@ const Main = (props) => {
 
   function showAlert(user) {
     Alert.alert(
-      'WARNING!',
-      'You really want remove this user?',
+      'ALERTA!',
+      'Tem certeza que deseja remover esse usuário?',
       [
         {
-          text: 'Cancel',
+          text: 'Cancelar',
           onPress: () => { return },
           style: 'cancel'
         },
-        { text: 'OK', onPress: () => deleteUser(user.id) }
+        { text: 'Confirmar', onPress: () => deleteUser(user.id) }
       ],
       { cancelable: false }
     );

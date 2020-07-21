@@ -25,7 +25,7 @@ const AddUser = (props) => {
 
     // email and password are required
     if(!email || !password) {
-      setErrors("field is required")
+      setErrors("campos obrigatórios")
       return
     }
 
@@ -42,8 +42,8 @@ const AddUser = (props) => {
 
     if (hasUser) {
       Alert.alert(
-        'WARNING!',
-        'Already exist a user with this email',
+        'ALERTA!',
+        'Já existe um usuário com esse email.',
         [
           { text: 'OK', onPress: () => { return }}
         ],
